@@ -1,0 +1,23 @@
+{
+  "name": "Dom",
+  "version": "1.0.0",
+  "description": "dom handle",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/devWayne/Dom.git"
+  },
+  "keywords": [
+    "dom",
+    "handle"
+  ],
+  "author": "VI",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/devWayne/Dom/issues"
+  },
+  "homepage": "https://github.com/devWayne/Dom"
+}
