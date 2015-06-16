@@ -1,0 +1,17 @@
+<html>
+<head>
+<title>Dom</title>
+</head>
+<body>
+<div class="test">test</div>
+<script src="../dom.js"></script>
+<script>
+var htmlMutiple = '<div class="confirm_alert cl-confirm" style="width: 280px; border-radius: 10px; position: fixed; left: 50%; top: 50%; border: 1px solid rgb(239, 239, 239); margin: -50px 0px 0px -140px; text-align: center; z-index: 10000; background: rgb(255, 255, 255);"><div class="alert_content" style="padding: 20px; border-bottom-style: solid; border-bottom-width: 1px; border-bottom-color: rgb(239, 239, 239);">测试弹窗</div><div class="alert_buttons" style="font-size: 14px; height: 40px; line-height: 40px;"><a data-id="cancel" style="color: rgb(0, 136, 204); float: left; width: 50%; height: 100%; box-sizing: border-box; text-decoration: none;">确定</a><a data-id="done" style="color: rgb(0, 136, 204); float: left; width: 50%; height: 100%; box-sizing: border-box; border-left-style: solid; border-left-width: 1px; border-left-color: rgb(239, 239, 239); text-decoration: none;">取消</a></div></div>'
+
+var htmlSingle = '<a data-id="done" style="color: rgb(0, 136, 204); float: left; width: 50%; height: 100%; box-sizing: border-box; border-left-style: solid; border-left-width: 1px; border-left-color: rgb(239, 239, 239); text-decoration: none;">取消</a>'
+var el = Dom.parse(htmlMutiple);
+var el2 = Dom.parse(htmlSingle);
+
+</script>
+</body>
+</html>

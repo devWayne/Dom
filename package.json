@@ -1,5 +1,5 @@
 {
-  "name": "Dom",
+  "name": "cl-dom",
   "version": "1.0.0",
   "description": "dom handle",
   "main": "index.js",
