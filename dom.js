@@ -58,10 +58,16 @@ return /******/ (function(modules) { // webpackBootstrap
 	 * @return {void} description
 	 */
 	var Dom = {
-		parse:parse
+	    parse: parse
 
 	}
 
+
+	/**
+	 * @param {String} html Description
+	 * @param {Element} context Description
+	 * @return {Element} description
+	 */
 	function parse(html, context) {
 	    if (typeof html !== 'string') return;
 	    context = context || document;
@@ -89,7 +95,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	}
 
 
-	module.exports = {Dom:Dom};
+	module.exports = {
+	    Dom: Dom
+	};
 
 
 /***/ }

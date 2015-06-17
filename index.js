@@ -2,10 +2,16 @@
  * @return {void} description
  */
 var Dom = {
-	parse:parse
+    parse: parse
 
 }
 
+
+/**
+ * @param {String} html Description
+ * @param {Element} context Description
+ * @return {Element} description
+ */
 function parse(html, context) {
     if (typeof html !== 'string') return;
     context = context || document;
@@ -33,4 +39,6 @@ function parse(html, context) {
 }
 
 
-module.exports = {Dom:Dom};
+module.exports = {
+    Dom: Dom
+};
